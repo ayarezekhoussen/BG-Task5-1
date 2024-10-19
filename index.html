@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./aseest/css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <section class="calculate">
+                    <input type="text"  class="result" > 
+                    
+                    <div>
+                        <button id="main-btn" class="btn main-btn2" onclick="clearResult()">Del</button>
+                        <button id="main-btn" class="btn" onclick=" opariter('%')">%</button>
+                        <button id="main-btn" class="btn" onclick=" opariter('/')">/</button>  
+                    </div>
+                    <div>
+                        <button class="btn"  onclick="number(7)" >7</button>
+                        <button class="btn"  onclick="number(8)">8</button>
+                        <button class="btn"  onclick="number(9)">9</button>
+                        <button class="btn" id="main-btn" onclick=" opariter('*')">*</button>
+                    </div>
+                    <div>
+                        <button class="btn"  onclick="number(4)">4</button>
+                        <button class="btn"  onclick="number(5)">5</button>
+                        <button class="btn"  onclick="number(6)">6</button>
+                        <button class="btn" id="main-btn" onclick=" opariter('-')">-</button>
+                    </div>
+                    <div>
+                        <button class="btn"  onclick="number(1)">1</button>
+                        <button class="btn"  onclick="number(2)">2</button>
+                        <button class="btn"  onclick="number(3)">3</button>
+                        <button class="btn" id="main-btn" onclick=" opariter('+')">+</button>
+                    </div>
+                    <div>
+                        <button class="btn" onclick="number('.')">.</button>
+                        <button class="btn"  onclick="number(0)">0</button>
+                        <button class="btn main-btn2" id="main-btn"  onclick="result()">=</button>
+                    </div>
+            </section>
+        </main>
+        <script src="./aseest/java/script.js"></script>
+    </body>
+</html>
